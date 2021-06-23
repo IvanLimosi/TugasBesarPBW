@@ -1,17 +1,22 @@
+<?php
+?>
 <html>
 	<head>
 		<title> RABEN Delivery Serivce </title>
-		<link rel="stylesheet" href="css/styleHome.css">
+		<link rel="stylesheet" type="text/css" href="View/css/styleHome.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>	
 		<nav id="navbar">
-			<img src="img/logo.png" height="70 px" alt="RabenLogo">
+			<img src="View/img/logo.png" height="70 px" alt="RabenLogo">
 			<a href="#">Kirim Barang</a>
 			<a href="#">Lacak Barang</a>
-			<a href="Login.html" class="right">
+      <a href="daftar" class="right">
+				Daftar
+			</a>
+			<a href="Login" class="right">
 				Sign In
 			</a>
 		</nav>
@@ -27,11 +32,11 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="img/img1.png">
+              <img src="View/img/img1.png">
             </div>
               
             <div class="item">
-              <img src="img/img2.png">
+              <img src="View/img/img2.png">
             </div>
         </div>
               

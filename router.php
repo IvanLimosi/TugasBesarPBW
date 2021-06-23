@@ -4,10 +4,15 @@
 
     if($_SERVER["REQUEST_METHOD"] == "GET"){
         switch ($url) {
-            case $baseURL.'/index':
-                require_once "controller/bookController.php";
-                $bookCtrl = new bookController();
-                echo $bookCtrl->view_book();
+            case $baseURL.'/home':
+                require_once "Controller/HomeController.php";
+                $pageCtrl = new HomeController();
+                echo $pageCtrl->view_home();
+                break;
+            case $baseURL.'/Login':
+                require_once "Controller/HomeController.php";
+                $pageCtrl = new HomeController();
+                echo $pageCtrl->view_login();
                 break;
             default:
                 echo '404 Not Found';
