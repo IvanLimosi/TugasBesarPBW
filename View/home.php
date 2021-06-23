@@ -1,15 +1,15 @@
 <?php
 ?>
 <html>
-	<head>
+	<!-- <head>
 		<title> RABEN Delivery Serivce </title>
 		<link rel="stylesheet" type="text/css" href="View/css/styleHome.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	</head>
-	<body>	
-		<nav id="navbar">
+	</head> -->
+	<body>
+		<!-- <nav id="navbar">
 			<img src="View/img/logo.png" height="70 px" alt="RabenLogo">
 			<a href="#">Kirim Barang</a>
 			<a href="#">Lacak Barang</a>
@@ -19,7 +19,7 @@
 			<a href="Login" class="right">
 				Sign In
 			</a>
-		</nav>
+		</nav> -->
 
     <div id="body">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -60,8 +60,8 @@
         </form>>
     </div>
 
-    <footer class="text-center"><br>
+    <!-- <footer class="text-center"><br>
       <p>Copyright Raben Delivery Serivce 2021</p>
-    </footer>
+    </footer> -->
 	</body>
 </html>
