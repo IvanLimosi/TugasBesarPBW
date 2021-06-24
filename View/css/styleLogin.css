@@ -5,14 +5,14 @@ body{
 }
 
 .logo{
-    position: absolute;
+    /* position: relative; */
     top: 100px;
     left: 590px;
 }
 
 #square{
     text-align: center;
-    position: absolute;
+    /* position: relative; */
     top: 250px;
     left: 500px;
     width: 550px;

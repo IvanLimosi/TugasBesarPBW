@@ -14,6 +14,11 @@
                 $pageCtrl = new HomeController();
                 echo $pageCtrl->view_login();
                 break;
+            case $baseURL.'/LoginCust':
+                require_once "Controller/HomeController.php";
+                $pageCtrl = new HomeController();
+                echo $pageCtrl->view_login_cust();
+                break;
             default:
                 echo '404 Not Found';
                 break;

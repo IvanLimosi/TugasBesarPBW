@@ -17,5 +17,8 @@ class HomeController{
     public function view_login(){
         return View::createView('Login.php',[]);
     }
+    public function view_login_cust(){
+        return View::createView('LoginCust.php',[]);
+    }
 }
 ?>
