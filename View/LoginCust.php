@@ -5,9 +5,9 @@
         <link rel="stylesheet" href="View/css/styleLoginCust.css">
     </head>
     <body>
-        <br><h1>Customer</h1>
-        <h1>Sign In</h1>
-        <p>Don't have account? <a href="Daftar">Sign up</a></p>
+        <br><h1 style="color:gray">Customer</h1>
+        <h1 style="color:gray">Sign In</h1>
+        <p style="color:gray">Don't have account? <a href="daftar">Sign up</a></p>
         <div id="square">
             <form>
                 <img src="View/img/iconprofile.png" width="70px"><br><br>

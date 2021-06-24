@@ -19,6 +19,26 @@
                 $pageCtrl = new HomeController();
                 echo $pageCtrl->view_login_cust();
                 break;
+            case $baseURL.'/daftar':
+                require_once "Controller/HomeController.php";
+                $pageCtrl = new HomeController();
+                echo $pageCtrl->view_daftar();
+                break;
+            case $baseURL.'/LoginAdmin':
+                require_once "Controller/HomeController.php";
+                $pageCtrl = new HomeController();
+                echo $pageCtrl->view_login_admin();
+                break;
+            case $baseURL.'/LoginDriver':
+                require_once "Controller/HomeController.php";
+                $pageCtrl = new HomeController();
+                echo $pageCtrl->view_login_driver();
+                break;
+            case $baseURL.'/kirim': //belum dikasih if udah login atau belum login.
+                require_once "Controller/HomeController.php";
+                $pageCtrl = new HomeController();
+                echo $pageCtrl->view_kirim();
+                break;
             default:
                 echo '404 Not Found';
                 break;

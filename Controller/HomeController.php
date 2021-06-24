@@ -20,5 +20,17 @@ class HomeController{
     public function view_login_cust(){
         return View::createView('LoginCust.php',[]);
     }
+    public function view_daftar(){
+        return View::createView('signup.php',[]);
+    }
+    public function view_login_admin(){
+        return View::createView('LoginAdmin.php',[]);
+    }
+    public function view_login_driver(){
+        return View::createView('LoginDriver.php',[]);
+    }
+    public function view_kirim(){
+        return View::createView('KirimBarang.php',[]);
+    }
 }
 ?>

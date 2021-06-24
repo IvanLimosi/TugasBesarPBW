@@ -9,7 +9,7 @@
             <img src="View/img/logoputih.png" class="logo" width="350px">
         </a>
          -->
-        <div id="square" style="text-align:center">
+        <div id="square">
             <h1 style="text-align:center">Log In</h1><br>
             <a href="LoginCust">
                 <input type="submit" value="Customer"><br>

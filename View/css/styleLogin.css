@@ -11,8 +11,8 @@ body{
 }
 
 #square{
-    text-align: center;
-    /* position: relative; */
+    margin: auto;
+    /* position: absolute; */
     top: 250px;
     left: 500px;
     width: 550px;
@@ -36,6 +36,7 @@ input[type=submit] {
     border: none;
     border-radius: 25px;
     cursor: pointer;
+    /* text-align: center; */
 }
   
 input[type=submit]:hover {
