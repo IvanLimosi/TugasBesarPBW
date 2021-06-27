@@ -1,13 +1,15 @@
-<html><head>
+<html>
+  <head>
 		<title> CSS </title>
 		<!-- style.css and font-awesome.css here -->
+        <link rel="stylesheet" href="View/css/styleKirimBarang.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	</head> 
 	
 	<body>
         <div class="w3-padding-large">
-            <form class="row g-3">
+            <br><br><br><br><br><form class="row g-3">
                 <div class="col-md-6">
                     <label for="inputNamaPenerima4" class="form-label">Nama Penerima</label>
                     <input type="text" class="form-control" id="inputNamaPenerima4">
@@ -61,5 +63,8 @@
                 </tbody>
               </table>
         </div>
-	
-</body></html>
+        <div id="pad">
+            
+        </div>
+  </body>
+</html>
