@@ -1,0 +1,9 @@
+body{
+    margin: 0px;
+    background-color:#EDEEEF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pad{
+    justify-content: center;
+    padding-bottom: 400px;
+}
