@@ -12,17 +12,19 @@ body{
 
 #square{
     margin: auto;
-    /* position: absolute; */
-    top: 250px;
+    position: absolute;
+    text-align: center;
+    top: 200px;
     left: 500px;
+    padding-bottom: 100px;
     width: 550px;
     height: 500px;
     background-color: white;
     border-radius: 50px;
 }
 #square h1{
-    padding-top: 10px;
-    font-size: 40px;
+    padding: 40px 0px 50px 0px;
+    font-size: 50px;
     color: #343F4B;
 }
 input[type=submit] {
@@ -42,4 +44,10 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
+#pad{
+    justify-content: center;
+    padding-bottom: 700px;
+}
+
 
