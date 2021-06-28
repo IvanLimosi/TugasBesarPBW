@@ -1,8 +1,8 @@
 body{
     text-align: center;
-    color: white;
     margin: 0px;
-    background-color: #EDEEEF;
+    background:url(../img/cover2.png);
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
