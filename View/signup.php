@@ -4,17 +4,13 @@
         <link rel="stylesheet" href="View/css/styleSignUp.css">
     </head> 
     <body>
-        <br><h1>Sign Up</h1>
         <div id="square">
+            <h1>Sign Up</h1>
             <form action="action.php" method="post">
                 <table>
                     <tbody><tr>
                         <td>Username:</td>
                         <td><input type="text" name="username" size="25" maxlength="25"></td>
-                    </tr>
-                    <tr>
-                        <td>Email:</td>
-                        <td><input type="text" name="email" size="25" maxlength="25"></td>
                     </tr>
                     <tr>
                         <td>Password:</td>
@@ -23,6 +19,9 @@
                 </tbody></table>
             </form>
             <button>Sign Up</button>
+        </div>
+        <div id="pad">
+            
         </div>
     </body>
 </html>
