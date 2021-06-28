@@ -46,11 +46,11 @@
     }else if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         switch ($url) {
-            case $baseURL.'/index':
+            case $baseURL.'/signup':
                
-                require_once "controller/bookController.php";
-                $bookCtrl = new bookController();
-                echo $bookCtrl->view_book();
+                require_once "controller/UserController.php";
+                $userCtrl = new UserController();
+                echo $userCtrl->addNewUser();
                 break;
             
             default:
