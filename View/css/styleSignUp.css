@@ -16,7 +16,7 @@ p{
     top: 250px;
     left: 490px;
     width: 570px;
-    height: 460px;
+    height: 480px;
     background-color: white;
     border-radius: 10px;
 }
@@ -50,7 +50,7 @@ input[type=password], select {
 }
 input[type=submit] {
     position: absolute;
-    top: 380px;
+    top: 390px;
     left: 210px;
     background-color: #0da550;
 	font-family: Arial;
