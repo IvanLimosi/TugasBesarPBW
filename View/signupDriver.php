@@ -5,12 +5,17 @@
     </head> 
     <body>
         <div id="square">
-            <h1>Sign Up</h1>
+            <h1>Sign Up Driver</h1>
             <form action="signup" method="post">
                 <table>
-                    <tbody><tr>
+                    <tbody>
+                    <tr>
                         <td>Username:</td>
                         <td><input type="text" id="username" name="iUsername" size="25" maxlength="25"></td>
+                    </tr>
+                    <tr>
+                        <td>Nama:</td>
+                        <td><input type="text" id="username" name="iNama" size="25" maxlength="25"></td>
                     </tr>
                     <tr>
                         <td>Password:</td>
@@ -29,7 +34,7 @@
                 </tbody></table>
                 <input id="daftar" type="submit" value="Daftar" name='addNewUser'>
             </form>
-            <a href="signupDriver"><button>Daftar sebagai Driver</button></a>
+            <a href="signup"><button>Daftar sebagai Customer</button></a>
         </div>
         <div id="pad">
             

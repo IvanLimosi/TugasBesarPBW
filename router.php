@@ -39,6 +39,11 @@
                 $pageCtrl = new HomeController();
                 echo $pageCtrl->view_kirim();
                 break;
+            case $baseURL.'/logout':
+                require_once "Controller/UserController.php";
+                $userCtrl = new UserController();
+                echo $userCtrl->logout();
+                break;
             default:
                 echo '404 Not Found';
                 break;
@@ -47,10 +52,14 @@
         
         switch ($url) {
             case $baseURL.'/signup':
-               
                 require_once "controller/UserController.php";
                 $userCtrl = new UserController();
                 echo $userCtrl->addNewUser();
+                break;
+            case $baseURL.'/loginCust':
+                require_once "controller/UserController.php";
+                $userCtrl = new UserController();
+                echo $userCtrl->loginUser();
                 break;
             
             default:

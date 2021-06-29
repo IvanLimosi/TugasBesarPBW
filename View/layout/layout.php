@@ -12,9 +12,9 @@
 <body>
 
     <?php 
-	require 'View/layout/navbar.php';
-	echo $content;
-	require 'View/layout/footer.php';
+	    require 'View/layout/navbar.php';
+	    echo $content;
+	    require 'View/layout/footer.php';
 	?>
 
 </body>

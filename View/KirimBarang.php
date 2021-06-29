@@ -14,10 +14,6 @@
                     <label for="inputNamaPenerima4" class="form-label">Nama Penerima</label>
                     <input type="text" class="form-control" id="inputNamaPenerima4">
                 </div>
-                <div class="col-md-6">
-                    <label for="inputIdCust" class="form-label">Customer ID</label>
-                    <input type="text" class="form-control" id="inputCustId" placeholder="000001">
-                </div>
                 <div class="col-12">
                     <label for="inputAddress" class="form-label">Alamat</label>
                     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
