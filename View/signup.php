@@ -33,7 +33,7 @@
                 </tbody></table>
                 <input id="daftar" type="submit" value="Daftar" name='addNewUser'>
             </form>
-            <a href="signupDriver.php"><button>Daftar sebagai Driver</button></a>
+            <a href="signupDriver"><button>Daftar sebagai Driver</button></a>
         </div>
         <div id="pad">
             
