@@ -29,8 +29,8 @@ class HomeController{
     public function view_login_driver(){
         return View::createView('LoginDriver.php',[]);
     }
-    public function view_kirim(){
-        return View::createView('KirimBarang.php',[]);
-    }
+    // public function view_kirim(){
+    //     return View::createView('KirimBarang.php',[]);
+    // }
 }
 ?>

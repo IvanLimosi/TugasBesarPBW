@@ -34,6 +34,10 @@
                     <label for="inputSatuan" class="form-label">Satuan</label>
                     <input type="text" class="form-control" id="inputSatuan" placeholder="Buah" name="iSatuan">
                 </div>
+                <div class="col-md-4">
+                    <label for="inputDriver" class="form-label">Driver id</label>
+                    <input type="text" class="form-control" id="inputDriver" name="iDriver">
+                </div>
                 <div class="col-12">
                 <button type="submit" class="btn btn-primary">Kirim</button>
                 <br><br>

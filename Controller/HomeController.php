@@ -31,7 +31,7 @@ class HomeController{
         return View::createView('LoginDriver.php',[]);
     }
     public function view_kirim(){
-        if (isset($_SESSION['isLogin'])) {
+        if (isset($_SESSION['isLogin'])&&$_SESSION['role'] == 'admin') {
             return View::createView('KirimBarang.php',[]);
         }else{
             return View::createView('Login.php',[]);
