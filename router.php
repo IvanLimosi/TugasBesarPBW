@@ -44,6 +44,11 @@
                 $userCtrl = new UserController();
                 echo $userCtrl->logout();
                 break;
+            case $baseURL.'/signupDriver':
+                require_once "Controller/DriverController.php";
+                $driverCtrl = new DriverController();
+                echo $driverCtrl->view_daftar_driver();
+                break;
             default:
                 echo '404 Not Found';
                 break;
@@ -61,7 +66,16 @@
                 $userCtrl = new UserController();
                 echo $userCtrl->loginUser();
                 break;
-            
+            case $baseURL.'/daftarDriver':
+                require_once "controller/DriverController.php";
+                $driverCtrl = new DriverController();
+                echo $driverCtrl->addNewDriver();
+                break;
+            case $baseURL.'/kirimBarang':
+                require_once "controller/KirimBarangController.php";
+                $brgCtrl = new KirimBarangController();
+                echo $brgCtrl->addNewDriver();
+                break;
             default:
                 
                 echo '404 Not Found';

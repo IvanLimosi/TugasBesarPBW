@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once "controller/services/mysqlDB.php";
 require_once "controller/services/view.php";
 
@@ -30,7 +31,11 @@ class HomeController{
         return View::createView('LoginDriver.php',[]);
     }
     public function view_kirim(){
-        return View::createView('KirimBarang.php',[]);
+        if (isset($_SESSION['isLogin'])) {
+            return View::createView('KirimBarang.php',[]);
+        }else{
+            return View::createView('Login.php',[]);
+        }
     }
 }
 ?>

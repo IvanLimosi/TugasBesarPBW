@@ -6,7 +6,7 @@
     <body>
         <div id="square">
             <h1>Sign Up Driver</h1>
-            <form action="signup" method="post">
+            <form action="daftarDriver" method="post">
                 <table>
                     <tbody>
                     <tr>
@@ -32,9 +32,9 @@
                         </td>
                     </tr>
                 </tbody></table>
-                <input id="daftar" type="submit" value="Daftar" name='addNewUser'>
+                <input id="daftar" type="submit" value="Daftar" name='addNewDriver'>
             </form>
-            <a href="signup"><button>Daftar sebagai Customer</button></a>
+            <a href="daftar"><button>Daftar sebagai Customer</button></a>
         </div>
         <div id="pad">
             

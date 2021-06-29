@@ -9,33 +9,41 @@
 	
 	<body>
         <div class="w3-padding-large">
-            <br><br><br><br><br><form class="row g-3">
+            <form class="row g-3" action="kirimBarang" method="post">
                 <div class="col-md-6">
                     <label for="inputNamaPenerima4" class="form-label">Nama Penerima</label>
-                    <input type="text" class="form-control" id="inputNamaPenerima4">
+                    <input type="text" class="form-control" id="inputNamaPenerima4" name="iNama">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputNamaPenerima4" class="form-label">Kategori</label>
+                    <input type="text" class="form-control" id="kategoriBarang" name="iKategori">
                 </div>
                 <div class="col-12">
                     <label for="inputAddress" class="form-label">Alamat</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" name="iAlamat">
                 </div>
                 <div class="col-md-6">
                     <label for="inputKeterangan" class="form-label">Keterangan Barang</label>
-                    <input type="text" class="form-control" id="inputKeterangan" placeholder="Buku, Meja, ...">
+                    <input type="text" class="form-control" id="inputKeterangan" placeholder="Buku, Meja, ..." name="iKeterangan">
                 </div>
                 <div class="col-md-4">
                     <label for="inputJumlah" class="form-label">Jumlah</label>
-                    <input type="text" class="form-control" id="inputJumlah" placeholder="1, 2, 3, 4, ...">
+                    <input type="text" class="form-control" id="inputJumlah" placeholder="1, 2, 3, 4, ..." name="iJumlah">
                 </div>
                 <div class="col-md-2">
                     <label for="inputSatuan" class="form-label">Satuan</label>
-                    <input type="text" class="form-control" id="inputSatuan" placeholder="Buah">
+                    <input type="text" class="form-control" id="inputSatuan" placeholder="Buah" name="iSatuan">
                 </div>
                 <div class="col-12">
-                <button type="submit" class="btn btn-primary">Simpan</button>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+                <br><br>
+                <input type="Datetime" class="form-control" id="inputSatuan" placeholder="tanggal Kirim">
+                <br>
+                <button type="submit" class="btn btn-primary">Kirim Nanti</button>
                 </div>
             </form>
 
-            <table class="table">
+            <!-- <table class="table">
                 <thead>
                   <tr>
                     <th scope="col">ID</th>
@@ -48,16 +56,11 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">1</th>
-                    <td>Jacob</td>
-                    <td>1234 Main st</td>
-                    <td>Buku</td>
-                    <td>3</td>
-                    <td>Buah</td>
+                    
                   </tr>
                   
                 </tbody>
-              </table>
+              </table> -->
         </div>
         <div id="pad">
             
