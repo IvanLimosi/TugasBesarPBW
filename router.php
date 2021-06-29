@@ -39,7 +39,7 @@
                 $pageCtrl = new HomeController();
                 echo $pageCtrl->view_kirim();
                 break;
-            case $baseURL.'/logout':
+            case $baseURL.'/Logout':
                 require_once "Controller/UserController.php";
                 $userCtrl = new UserController();
                 echo $userCtrl->logout();
