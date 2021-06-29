@@ -5,8 +5,8 @@
         <link rel="stylesheet" href="View/css/styleLoginCust.css">
     </head>
     <body>
-        <br><h1 style="color:gray">Driver</h1>
-        <h1 style="color:gray">Sign In</h1>
+        <br><h1>Driver</h1>
+        <h1>Sign In</h1>
         <p style="color:white">Don't have account?</p>
         <div id="square">
             <form action="loginDriver" method="post">
