@@ -16,20 +16,24 @@
                         <td>Password:</td>
                         <td>
                             <input type="password" name="iPass" id="pass" size="25" maxlength="25">
-                            <img class="icon" id="check1" src="View/img/check.png" alt="OK">
+                        </td>
+                        <td>
+                            <img class="icon" id="check1" src="View/img/check.png" width="30px" alt="OK">
                         </td>
                     </tr>
                     <tr>
                         <td>Confirm Password:</td>
                         <td> 
                             <input type="password" name="iConPass" id="conPass" size="15" maxlength="15">
-                            <img class="icon" id="check2" src="View/img/check.png" alt="OK">
+                        </td>
+                        <td>
+                            <img class="icon" id="check2" src="View/img/check.png" width="30px" alt="OK">
                         </td>
                     </tr>
                 </tbody></table>
                 <input id="daftar" type="submit" value="Daftar" name='addNewUser'>
             </form>
-            <a href="signupDriver"><button>Daftar sebagai Driver</button></a>
+            <a href="signupDriver.php"><button>Daftar sebagai Driver</button></a>
         </div>
         <div id="pad">
             
