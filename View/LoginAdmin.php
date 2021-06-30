@@ -7,7 +7,7 @@
     <body>
         <br><h1>Admin</h1>
         <h1>Sign In</h1>
-        <!-- <p style="color:white">a</p> -->
+        <p style="color:white">.</p>
         <div id="square">
             <form action="loginAdmin" method="post">
                 <img src="View/img/iconprofile.png" width="70px"><br><br>
