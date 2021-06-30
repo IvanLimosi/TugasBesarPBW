@@ -1,6 +1,8 @@
 <?php
+session_start();
 require_once "controller/services/mysqlDB.php";
 require_once "controller/services/view.php";
+require_once "Model/admin.php";
 
 class DriverController{
     protected $db;
@@ -29,6 +31,32 @@ class DriverController{
             header('Location: home');
         }else {
             alert("Username atau Password masih salah");
+        }
+    }
+
+    public function loginDriver(){
+        $username = $_POST['iUsername'];
+        $pass = $_POST['iPassword'];
+        $_SESSION['username'] = $username;
+        
+        if(isset($username) && $username != ""){
+            $username = $this->db->escapeString($username);
+            $password = $this->db->escapeString($pass);
+            $query = "SELECT username, password FROM users WHERE username = '$username' AND password = '$pass'";
+            $res = $this->db->executeSelectQuery($query);
+            if (count($res)==1) {
+                $_SESSION['isLogin']=true;
+                $_SESSION['role'] = "Driver";
+                // echo $_SESSION['isLogin'];
+                // echo $_SESSION['role'];
+                // die;
+                header('Location: home');
+            }else{
+                header('Location: LoginDriver');
+            }
+            // header('Location: home');
+        }else {
+            header('Location: LoginDriver');
         }
     }
 }

@@ -45,7 +45,7 @@
         </div>
     </body>
 
-    <script>
+    <!-- <script>
         let pw = document.getElementById('pass');
         let cPw = document.getElementById('conPass');
         let pass = false;
@@ -84,5 +84,5 @@
                 document.getElementById("daftar").disabled = true;
             }
         }
-    </script>
+    </script> -->
 </html>

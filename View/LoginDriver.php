@@ -11,9 +11,9 @@
         <div id="square">
             <form action="loginDriver" method="post">
                 <img src="View/img/iconprofile.png" width="70px"><br><br>
-                <input type="text" name="first_name" size="15" maxlength="15" placeholder="Username"/><br><br>
+                <input type="text" name="iUsername" size="15" maxlength="15" placeholder="Username"/><br><br>
                 <img src="View/img/iconkey.png" width="70px"><br><br>
-                <input type="password" name="password" size="15" maxlength="15" placeholder="Password"/><br><br><br>
+                <input type="password" name="iPassword" size="15" maxlength="15" placeholder="Password"/><br><br><br>
                 <input type="checkbox" name="interest" value="Remember"/> Remember me<br>
                 <input id="login" type="submit" value="Login" name='loginDriver'>
             </form>

@@ -49,6 +49,11 @@
                 $driverCtrl = new DriverController();
                 echo $driverCtrl->view_daftar_driver();
                 break;
+            // case $baseURL.'/daftarDriver':
+            //     require_once "controller/DriverController.php";
+            //     $driverCtrl = new DriverController();
+            //     echo $driverCtrl->addNewDriver();
+            //     break;
             default:
                 echo '404 Not Found';
                 break;
@@ -74,7 +79,18 @@
             case $baseURL.'/kirimBarang':
                 require_once "controller/KirimBarangController.php";
                 $brgCtrl = new KirimBarangController();
-                echo $brgCtrl->addNewDriver();
+                echo $brgCtrl->kirim();
+                header('Location: home');
+                break;
+            case $baseURL.'/loginAdmin':
+                require_once "controller/AdminController.php";
+                $adminCtrl = new AdminController();
+                echo $adminCtrl->loginAdmin();
+                break;
+            case $baseURL.'/loginDriver':
+                require_once "controller/DriverController.php";
+                $driverCtrl = new driverController();
+                echo $driverCtrl->loginDriver();
                 break;
             default:
                 

@@ -17,12 +17,19 @@
 				echo "<a href=\"Logout\" class=\"right\">
 						 Logout
 					 </a>";
-			}else if($isLogin && $role=='driver'){
-				echo "<a href=\"daftar\" class=\"right\">
+			}else if($isLogin && $role=='Driver'){
+				echo "<a href=\"PilihJob\" class=\"right\">
 					Pilih Job
 				</a>
-				<a href=\"Login\" class=\"right\">
+				<a href=\"Logout\" class=\"right\">
 					Logout
+				</a>";
+			}else if($isLogin && $role=='admin'){
+				echo "<a href=\"Atur_Driver\" class=\"right\">
+					Atur Driver
+				</a>
+				<a href=\"Logout\" class=\"right\">
+					Admin Logout
 				</a>";
 			}
 		}else{
